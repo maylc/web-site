@@ -1,0 +1,95 @@
+body {
+  background-color: #fff;
+}
+
+header {
+  background: url(../images/header.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+#name
+{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3.0em;
+}
+
+#name .last {
+  color: #624374;
+  -webkit-text-stroke: 2px #fff;
+}
+
+#name .first
+{
+  -webkit-text-stroke: 2px #624374;
+  color: #fff;
+}
+
+#title {
+  color: #795F87;
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5em;
+
+}
+
+#knowledge {
+  background-color: #D7D2DA;
+}
+
+#knowledge h1, #contact h1 {
+  color: #FFF;
+}
+
+.full-height
+{
+  height: 100%;
+}
+
+.content-pad
+{
+  padding: 3em 1em;
+}
+
+.divider {
+  width: 50%;
+  color: #fff;
+  border: 0.5px solid #fff;
+  margin-bottom: 40px;
+}
+
+.knowledge-item img
+{
+  margin-bottom: 10px;
+  widows: 64px;
+  height: 64px;;
+}
+
+#about p {
+  font-size: 1.3em;
+  color: #7B7777;
+}
+
+#about h1 {
+  color: #795F87;
+}
+
+#knowledge .row {
+  margin-bottom: 15px;
+}
+
+#contact
+{
+  background-color: #795F87;
+}
+
+#contact img
+{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.footer {
+  line-height: 60px;
+  background-color: #202020;
+  color: #fff;
+}
