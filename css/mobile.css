@@ -1,0 +1,60 @@
+/*XS*/
+@media (max-width:575px)
+{
+  #about img
+  {
+      width: 200px;
+      height: 200px;
+  }
+
+  #about p
+  {
+    font-size: 0.9em;
+    color: #7B7777;
+  }
+
+  #about h1
+  {
+    color: #795F87;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+
+  #about hr
+  {
+    color: #795F87;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  #knowledge img
+  {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;;
+  }
+
+  #knowledge p
+  {
+    font-size: 0.8em;
+  }
+
+  /*
+  ==========================================================================
+  Custom Classes
+  ==========================================================================
+  */
+
+  .footer
+  {
+    line-height: 60px;
+    background-color: #202020;
+    color: #fff;
+    font-size: 0.8em;
+  }
+
+  .big-section-title
+  {
+    font-size: 1.8em;
+  }
+}

@@ -1,4 +1,11 @@
-body {
+/*
+==========================================================================
+General
+==========================================================================
+*/
+
+body
+{
   background-color: #fff;
 }
 
@@ -8,13 +15,20 @@ header {
   height: 400px;
 }
 
+/*
+==========================================================================
+IDs
+==========================================================================
+*/
+
 #name
 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 3.0em;
 }
 
-#name .last {
+#name .last
+{
   color: #624374;
   -webkit-text-stroke: 2px #fff;
 }
@@ -25,19 +39,86 @@ header {
   color: #fff;
 }
 
-#title {
+#title
+{
   color: #795F87;
   font-family: 'Poiret One', cursive;
   font-size: 2.5em;
-
 }
 
-#knowledge {
+#knowledge
+{
   background-color: #D7D2DA;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #7B7777;
 }
 
-#knowledge h1, #contact h1 {
+#knowledge .row
+{
+  margin-bottom: 15px;
+}
+
+#knowledge h1, #contact h1
+{
   color: #FFF;
+}
+
+#knowledge img
+{
+  margin-bottom: 10px;
+  width: 64px;
+  height: 64px;;
+}
+
+#about h1
+{
+  color: #795F87;
+}
+
+#about img
+{
+    width: 350px;
+    height: 350px;
+}
+
+#about p
+{
+  font-size: 1.3em;
+  color: #7B7777;
+}
+
+#projects h1
+{
+  color: #795F87;
+}
+
+#contact
+{
+  background-color: #795F87;
+}
+
+#contact img
+{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#projects-tab
+{
+  margin-bottom: 10px;
+}
+
+/*
+==========================================================================
+Custom Classes
+==========================================================================
+*/
+
+.footer {
+  line-height: 60px;
+  background-color: #202020;
+  color: #fff;
 }
 
 .full-height
@@ -57,39 +138,13 @@ header {
   margin-bottom: 40px;
 }
 
-.knowledge-item img
+.slide {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img-responsive
 {
-  margin-bottom: 10px;
-  widows: 64px;
-  height: 64px;;
-}
-
-#about p {
-  font-size: 1.3em;
-  color: #7B7777;
-}
-
-#about h1 {
-  color: #795F87;
-}
-
-#knowledge .row {
-  margin-bottom: 15px;
-}
-
-#contact
-{
-  background-color: #795F87;
-}
-
-#contact img
-{
-  max-width: 50px;
-  max-height: 50px;
-}
-
-.footer {
-  line-height: 60px;
-  background-color: #202020;
-  color: #fff;
+  max-width: 70%; /* or to whatever you want here */
+  max-height: auto; /* or to whatever you want here */
 }
