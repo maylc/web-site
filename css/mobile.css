@@ -1,6 +1,30 @@
 /*XS*/
 @media (max-width:575px)
 {
+  h4
+  {
+    font-size: 0.9em;
+  }
+
+  .footer
+  {
+    line-height: 60px;
+    background-color: #202020;
+    color: #fff;
+    font-size: 0.8em;
+  }
+
+  .big-section-title
+  {
+    font-size: 1.8em;
+  }
+
+  /*
+  ==========================================================================
+  About
+  ==========================================================================
+  */
+
   #about img
   {
       width: 200px;
@@ -27,6 +51,12 @@
     margin-bottom: 10px;
   }
 
+  /*
+  ==========================================================================
+  Knowledge
+  ==========================================================================
+  */
+
   #knowledge img
   {
     margin-bottom: 10px;
@@ -41,20 +71,41 @@
 
   /*
   ==========================================================================
-  Custom Classes
+  Location
   ==========================================================================
   */
 
-  .footer
+  .location-img
   {
-    line-height: 60px;
-    background-color: #202020;
-    color: #fff;
+    min-height: 70px;
+    background-size: contain;
+  }
+
+  .alert-Location{
+    min-width: 180px;
+  }
+
+  #Location
+  {
+    max-height: 300px;
+    background-size: cover;
+  }
+
+  #Location p
+  {
+    font-size: 0.7em;
+    margin-bottom: 0;
+  }
+
+  #Location hr
+  {
+    margin-bottom: 3  px;
+    margin-top: 3px;
+  }
+
+  #projects p, #projects li
+  {
     font-size: 0.8em;
   }
 
-  .big-section-title
-  {
-    font-size: 1.8em;
-  }
 }
