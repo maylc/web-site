@@ -150,11 +150,24 @@ Custom Classes
   max-height: auto; /* or to whatever you want here */
 }
 
+.app-desc
+{
+  margin-top: 30px;
+}
+
+
+
+/*
+==========================================================================
+Location
+==========================================================================
+*/
+
 #location
 {
   min-height: 450px;
   max-height: 450px;
-  background: url(../images/toronto.png) no-repeat center center;
+  background: url(../images/toronto_map.png) no-repeat center center;
   background-size: 100%;
 }
 
@@ -169,15 +182,11 @@ Custom Classes
       color: #fff;
 }
 
+
 .location-img
 {
-  background: url(../images/toronto3.png) no-repeat center center;
+  background: url(../images/toronto_skyline.png) no-repeat center center;
   min-height: 100px;
-}
-
-.app-desc
-{
-  margin-top: 30px;
 }
 
 .container-location
@@ -195,22 +204,10 @@ Projects
 ==========================================================================
 */
 
-/* #projects-tab
-{
-  text-align:center;
-}
-
-#projects-tab li
-{
-  display:table;
-   margin:0px auto 0px auto;
-} */
-
 #projects-tab{
   list-style-type:none;
   display:flex;
   justify-content: center;
-
 }
 
 #projects-tab li{
@@ -250,8 +247,3 @@ Projects
   color: #b2a8b7;
   font-weight: normal;
 }
-
-/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #fff;
-  background-color: #795F87;
-} */
