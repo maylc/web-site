@@ -59,6 +59,27 @@
         </div>
       </div>
 
+      <!--====================-->
+      <!--= Location Section =-->
+      <!--====================-->
+
+      <div id="location" class="container-location">
+        <!-- <img class="img location-img" src="images/toronto.png" alt="">
+        </img> -->
+        <!-- <div class="parent"> -->
+          <div class="alert alert-light alert-location" role="alert">
+            <h4 class="alert-heading">Where do I live?</h4>
+            <hr>
+            <p>I currently live in Downton Toronto.</p>
+
+            <div class="location-img">
+
+            </div>
+            <!-- <img class="img location-img" src="images/toronto3.png" alt=""> -->
+          </div>
+        <!-- </div> -->
+      </div>
+
       <!--=====================-->
       <!--= Knowledge Section =-->
       <!--=====================-->
@@ -139,29 +160,84 @@
 
       <div id="projects" class="container content-pad text-center">
 
+        <!----------->
+        <!-- Title -->
+        <!----------->
+
         <h1 class="big-section-title">My Projects</h1>
         <hr class="divider text-center"/>
 
-        <ul id="projects-tab" class="nav nav-tabs" role="tablist">
+        <!----------->
+        <!-- Nav ---->
+        <!----------->
 
-          <li class="nav-item">
-            <a id="home-tab" class="nav-link active" href="#android-projects" data-toggle="tab" role="tab" aria-controls="android-projects" aria-selected="true">Android Projects</a>
+        <!-- <nav id="projects-tab" class="nav">
+          <a id="home-tab" class="nav-link active" href="#project-mastermind" data-toggle="tab" role="tab" aria-controls="project-mastermind" aria-selected="true">Mastermind</a>
+          <a id="profile-tab" class="nav-link" href="#ios-projects" data-toggle="tab" role="tab" aria-controls="ios-projects" aria-selected="false">May Weather</a>
+        </nav> -->
+
+        <ul id="projects-tab" class="nav nav-pills nav">
+          <li id="home-tab" class="nav-item">
+            <a id="home-tab" class="nav-link active" href="#project-mastermind" data-toggle="tab" role="tab" aria-controls="project-mastermind" aria-selected="true">Mastermind</a>
           </li>
           <li class="nav-item">
-            <a id="profile-tab" class="nav-link" href="#ios-projects" data-toggle="tab" role="tab" aria-controls="ios-projects" aria-selected="false">iOS Projects</a>
+            <a id="profile-tab" class="nav-link" href="#ios-projects" data-toggle="tab" role="tab" aria-controls="ios-projects" aria-selected="false">May Weather</a>
           </li>
+      </ul>
 
-        </ul>
+        <!---------------->
+        <!-- Projects ---->
+        <!---------------->
 
         <div class="tab-content" id="myTabContent">
 
-          <div id="android-projects" class="container tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
-            <img class="img img-thumbnail img-responsive" src="images/construction.png" alt="">
-          </div> <!-- Android projects -->
+          <!-- Mastermind -->
+          <div id="project-mastermind" class="container tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
+            <div class="carbon-wrap">
+              <img class="img project-img carbon-img" src="images/projects/android/mastermind.png" alt=""/>
 
+              <div class="alert alert-info text-left app-desc" role="alert">
+                <h4 class="alert-heading">About the Game</h4>
+                <p>A remake of an old board game where you have to figure out a sequence of colors in a limited number of tries.</p>
+                <hr/>
+                <h4 class="alert-heading">Features</h4>
+                <ul>
+                  <li>The game saves the name of the top 5 players</li>
+                  <li>The score is based on the time that the player spent to figure out the sequence</li>
+                  <li>After each "try" the game gives the player a feedback about his current sequence. The feedback is made in a form of black or white pieces.</li>
+                    <ul>
+                      <li>The black piece means that one color is in the right position</li>
+                      <li>The white piece means that one color is correct, but it is in the wrong position</li>
+                      <li>The absent of pieces means that one color is wrong</li>
+                      <li>The feedback pieces are shuffled, in other words, a black piece in the first position doesn't mean that your FIRST color is the correct one.</li>
+                    </ul>
+                </ul>
+                <hr />
+                <a href="https://github.com/maylcf/MayWeather" target="_blank">Github Repository</a>
+              </div>
+
+            </div>
+          </div> <!-- END Mastermind -->
+
+          <!-- MayWeather -->
           <div id="ios-projects" class="container tab-pane fade" role="tabpanel" aria-labelledby="profile-tab">
-            <img class="img img-thumbnail img-responsive" src="images/construction.png" alt="">
-          </div> <!-- iOS projects -->
+            <div class="carbon-wrap">
+              <img class="img project-img carbon-img" src="images/projects/ios/may_weather.png" alt=""/>
+
+              <div class="alert alert-info text-left app-desc" role="alert">
+                <h4 class="alert-heading">Features</h4>
+                <ul>
+                <li>Uses <a href="http://www.geonames.org/export/geonames-search.html" target="_blank">Geonames Api</a> to get cities information</li>
+                <li>Saves selected cities into a database (Coredata)</li>
+                <li>Uses <a href="https://openweathermap.org/api" target="_blank">OpenWeather API</a> to get weather information</li>
+                <li>Parses JSON data to object</li>
+                <li>Aysncronous network calls</li>
+                </ul>
+                <hr/>
+                <a href="https://github.com/maylcf/MayWeather" target="_blank">Github Repository</a>
+              </div>
+            </div>
+          </div> <!-- END MayWeather -->
 
         </div>
 
@@ -187,7 +263,7 @@
             </a>
           </div>
           <div class="col col-md-1">
-            <a href="https://github.com/maylc" target="_blank">
+            <a href="https://github.com/maylcf" target="_blank">
               <img class="img-fluid" src="images/contact/github.png" alt="linkedin" title="Github">
             </a>
           </div>
